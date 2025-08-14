@@ -3,7 +3,7 @@ const textE = document.getElementById("status");
 const buttonE = document.getElementById("enterBtn");
 
 
-button.addEventListener("click" , function() {
+buttonE.addEventListener("click" , function() {
 	
 	const h1E = document.createElement("h1");
 
