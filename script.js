@@ -1,13 +1,7 @@
 //your JS code here. If required.
-const textE = document.querySelector("#status");
-const buttonE = document.querySelector("#enterBtn");
+document.getElementById('enterBtn').addEventListener("click" , function() {
 
+	var statusText = document.getElementById('status');
 
-buttonE.addEventListener("click" , function() {
-	
-	const h1E = document.createElement("h1");
-
-	h1E.textContent = "Entered Metaverse";
-
-	document.body.replaceChild(h1E, textE);
+	statusText.innerHTML = '<h1>Entered Metaverse</h1>';
 });
