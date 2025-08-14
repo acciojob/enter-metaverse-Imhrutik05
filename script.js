@@ -1,6 +1,6 @@
 //your JS code here. If required.
-const textE = document.getElementById("status");
-const buttonE = document.getElementById("enterBtn");
+const textE = document.querySelector("#status");
+const buttonE = document.querySelector("#enterBtn");
 
 
 buttonE.addEventListener("click" , function() {
